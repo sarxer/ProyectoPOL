@@ -7,4 +7,10 @@ public class Trabajador {
     private String cargo;
     private double salario;
 
+public Trabajador(String nombre, int documento, String cargo, double salario) {
+    this.nombre = nombre;
+    this.documento = documento;
+    this.cargo = cargo;
+    this.salario = salario;
+}
 }
