@@ -20,7 +20,31 @@ public class TiendaPolimorfismo {
         Mascota mascota2 = new Mascota("Max", "Perro");
         Mascota mascota3 = new Mascota("Milo", "Gato", "Siames", 2);
 
-        
+        System.out.println("TRABAJADORES");
+        System.out.println(trabajador1.getNombre());
+        System.out.println(trabajador2.getNombre());
+        System.out.println(trabajador3.getNombre());
+
+        System.out.println();
+
+        System.out.println("GERENTES");
+        System.out.println(gerente1.getNombre());
+        System.out.println(gerente2.getNombre());
+        System.out.println(gerente3.getNombre());
+
+        System.out.println();
+
+        System.out.println("CLIENTES");
+        System.out.println(cliente1.getNombre());
+        System.out.println(cliente2.getNombre());
+        System.out.println(cliente3.getNombre());
+
+        System.out.println();
+
+        System.out.println("MASCOTAS");
+        System.out.println(mascota1.getNombre());
+        System.out.println(mascota2.getNombre());
+        System.out.println(mascota3.getNombre());
         
     }
 }
