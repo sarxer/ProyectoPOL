@@ -6,43 +6,52 @@ public class Mascota {
     private String especie;
     private String raza;
     private int edad;
-    
-public Mascota(String nombre, String especie, String raza, int edad) {
-    this.nombre = nombre;
-    this.especie = especie;
-    this.raza = raza;
-    this.edad = edad;
-}
 
-public String getNombre() {
-    return nombre;
-}
+    public Mascota(String nombre) {
+        this.nombre = nombre;
+    }
 
-public void setNombre(String nombre) {
-    this.nombre = nombre;
-}
+    public Mascota(String nombre, String especie) {
+        this.nombre = nombre;
+        this.especie = especie;
+    }
 
-public String getEspecie() {
-    return especie;
-}
+    public Mascota(String nombre, String especie, String raza, int edad) {
+        this.nombre = nombre;
+        this.especie = especie;
+        this.raza = raza;
+        this.edad = edad;
+    }
 
-public void setEspecie(String especie) {
-    this.especie = especie;
-}
+    public String getNombre() {
+        return nombre;
+    }
 
-public String getRaza() {
-    return raza;
-}
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
 
-public void setRaza(String raza) {
-    this.raza = raza;
-}
+    public String getEspecie() {
+        return especie;
+    }
 
-public int getEdad() {
-    return edad;
-}
+    public void setEspecie(String especie) {
+        this.especie = especie;
+    }
 
-public void setEdad(int edad) {
-    this.edad = edad;
-}
+    public String getRaza() {
+        return raza;
+    }
+
+    public void setRaza(String raza) {
+        this.raza = raza;
+    }
+
+    public int getEdad() {
+        return edad;
+    }
+
+    public void setEdad(int edad) {
+        this.edad = edad;
+    }
 }

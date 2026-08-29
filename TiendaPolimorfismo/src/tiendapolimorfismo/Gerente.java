@@ -7,42 +7,50 @@ public class Gerente {
     private String area;
     private double salario;
 
-    
-public Gerente(String nombre, int documento, String area, double salario) {
-    this.nombre = nombre;
-    this.documento = documento;
-    this.area = area;
-    this.salario = salario;
-}
-public String getNombre() {
-    return nombre;
-}
+    public Gerente(String nombre) {
+        this.nombre = nombre;
+    }
 
-public void setNombre(String nombre) {
-    this.nombre = nombre;
-}
+    public Gerente(String nombre, String area) {
+        this.nombre = nombre;
+        this.area = area;
+    }
 
-public int getDocumento() {
-    return documento;
-}
+    public Gerente(String nombre, String area, double salario) {
+        this.nombre = nombre;
+        this.area = area;
+        this.salario = salario;
+    }
 
-public void setDocumento(int documento) {
-    this.documento = documento;
-}
+    public String getNombre() {
+        return nombre;
+    }
 
-public String getArea() {
-    return area;
-}
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
 
-public void setArea(String area) {
-    this.area = area;
-}
+    public int getDocumento() {
+        return documento;
+    }
 
-public double getSalario() {
-    return salario;
-}
+    public void setDocumento(int documento) {
+        this.documento = documento;
+    }
 
-public void setSalario(double salario) {
-    this.salario = salario;
-}
-}
+    public String getArea() {
+        return area;
+    }
+
+    public void setArea(String area) {
+        this.area = area;
+    }
+
+    public double getSalario() {
+        return salario;
+    }
+
+    public void setSalario(double salario) {
+        this.salario = salario;
+    }
+    }
